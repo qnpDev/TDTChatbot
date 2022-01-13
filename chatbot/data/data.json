@@ -1,0 +1,1643 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Chào bạn",
+                "Hélu",
+                "Hello",
+                "Xin chào",
+                "Bạn ơi",
+                "Bạn gì ơi"
+            ],
+            "responses": [
+                "Chào bạn",
+                "Rất vui được gặp bạn",
+                "Tôi có thể giúp gì cho bạn",
+                "Xin chào"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Bye bạn",
+                "Tạm biệt",
+                "Thế thôi",
+                "Thế nhé",
+                "Chào bạn",
+                "PP",
+                "Bái bai"
+            ],
+            "responses": [
+                "Tạm biệt và hẹn gặp lại nha",
+                "Chúc bạn có một ngày tốt lành",
+                "Chào bạn"
+            ]
+        },
+        {
+            "tag": "complain",
+            "patterns": [
+                "muốn khiếu nại",
+                "muốn tố cáo",
+                "tệ hại",
+                "tệ quá",
+                "dịch vụ quá kém",
+                "hỗ trợ quá kém",
+                "gian thương",
+                "làm ăn bất nhất",
+                "cho gặp chủ quán",
+                "cho gặp admin",
+                "gặp chủ",
+                "gặp sếp",
+                "gặp quản lý",
+                "gặp ad"
+            ],
+            "responses": [
+                "Xin bạn hãy cung cấp thông tin để chúng tôi có thể ghi lại và hỗ trợ tốt hơn cho lần sau",
+                "Vui lòng đề cập chi tiết khiếu nại của bạn, chúng tôi sẽ liên hệ lại với bạn sau và xin lỗi vì sự bất tiện này"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "cảm ơn",
+                "cảm nhơn",
+                "tốt lắm",
+                "thank kiều",
+                "hihi",
+                "thanks",
+                "thank you"
+            ],
+            "responses": [
+                "Cảm ơn bạn",
+                "Phục vụ bạn là vinh hạnh của chúng tôi!"
+            ]
+        },
+        {
+            "tag": "sorry",
+            "patterns": [
+                "ngu quá",
+                "không hiểu",
+                "không giúp",
+                "không có ích",
+                "vô ích",
+                "vô dụng"
+            ],
+            "responses": [
+                "Xin lỗi, tôi không hiểu ý bạn",
+                "Vui lòng cho tôi thêm thông tin",
+                "Tôi không chắc bạn đang nói gì",
+                "Bạn có thể nói rõ hơn không"
+            ]
+        },
+		{
+			"tag": "ask_name_tdtu",
+			"patterns": [
+				"bạn học trường gì",
+				"trường bạn tên gì vậy",
+				"mã tên của trường là gì",
+				"Trường của bạn ở quận nào"
+			],
+			"responses": [
+				"Đại học Tôn Đức Thắng",
+				"Trường đại học Tôn Đức Thắng",
+				"TDTU"
+			]
+		},
+		{
+            "tag": "about_me",
+            "patterns": [
+                "Bạn đang ở đâu",
+				"ở đâu"
+            ],
+            "responses": [
+                "Mình đang ở TPHCM",
+                "Mình học ở đại học Tôn Đức Thắng"
+            ]
+        },
+		{
+            "tag": "about_me1",
+            "patterns": [
+                "Bạn làm nghề gì"
+            ],
+            "responses": [
+                "Hiện tại mình vẫn là sinh viên"
+            ]
+        },
+		{
+            "tag": "about_me2",
+            "patterns": [
+                "Bạn học ở đâu",
+                "Bạn đã ra trường chưa"
+            ],
+            "responses": [
+                "Hiện tại mình vẫn là sinh viên",
+                "Mình học ở đại học Tôn Đức Thắng",
+				"Mình còn là sinh viên nên vẫn chưa ra trường"
+            ]
+        },
+		{
+            "tag": "about_me3",
+            "patterns": [
+                "Bạn đi làm được mấy năm"
+            ],
+            "responses": [
+                "Hiện tại mình vẫn là sinh viên",
+                "Mình vẫn chưa đi làm nha, nên vẫn chưa có kinh nghiệm nhiều",
+				"Mình vẫn chưa đi làm nha, vẫn còn đang học"
+            ]
+        },
+		{
+            "tag": "thangmay",
+            "patterns": [
+                "Nghe nói ở trường có thang máy sịn sò",
+                "Quy tắc sinh viên khi đi thang máy là gì",
+                "Thang máy ở trường hoạt động có tốt không"
+            ],
+            "responses": [
+                "Trường trang bị mỗi tòa nhà tận 4 thang máy phục vụ các bạn sinh viên nha",
+                "Khi đi thang máy sinh viên cần tuân thủ quy tắc là xếp hàng, không chen lấn, nhường giáo viên,...",
+				"Thang máy hoạt động 24/24 luôn luôn sạch sẽ và thoáng"
+            ]
+        },
+		{
+            "tag": "congvien",
+            "patterns": [
+                "Trường có công viên cây xanh không",
+                "Công viên thường sẽ có hoạt động gì"
+            ],
+            "responses": [
+                "Xung quanh trường và phía sau trường có nhiều khu vực cây xanh và công viên cho mọi người thư giãn",
+                "Ở công viên bạn có thể tập thể dục thể thao, trò chuyện,...",
+				"Công viên vô cùng sạch sẽ và thoáng mát"
+            ]
+        },
+		{
+            "tag": "congtruong",
+            "patterns": [
+                "Trường có bao nhiêu cổng ra vào vậy",
+                "Các cổng có được mở xuyên suốt không"
+            ],
+            "responses": [
+                "Trường có tổng cộng là 10 cổng nha",
+                "Tùy vào tình hình hoạt động mà sẽ có cổng mở xuyên suốt và có cổng sẽ không mở nha"
+            ]
+        },
+		{
+            "tag": "congtruong1",
+            "patterns": [
+                "Nghe nói cổng 7 rất sôi động phải không"
+            ],
+            "responses": [
+                "Cổng 7 là cổng dành cho các bạn ở kí túc xá nên rất nhộn nhịp luôn đó nha",
+				"Cổng 7 còn là nơi thân thiện giữa các bạn sinh viên và shiper nữa đó"
+            ]
+        },
+		{
+            "tag": "truonghoc",
+            "patterns": [
+                "trường bạn như thế nào",
+                "trường bạn có view đẹp không"
+            ],
+            "responses": [
+                "Trường mình rất rộng luôn nha, có sân trường với nhiều khu rất lớn",
+                "Trường mình rất đẹp",
+                "Mỗi góc của trường mình đều là view sống ảo đó nha"
+            ]
+        },
+		{
+            "tag": "camnhan",
+            "patterns": [
+                "Bạn cảm thấy trường đang học như thế nào"
+            ],
+            "responses": [
+                "Ngôi trường rất đẹp và nhiều cơ sở vật chất hiện đại",
+                "Mình thấy học ở đây khá dễ chịu"
+            ]
+        },
+		{
+            "tag": "about_school",
+            "patterns": [
+                "Trường của bạn ở quận nào",
+                "Trường bạn nằm ở đâu"
+            ],
+            "responses": [
+                "Quận 7 nha bạn ơi",
+                "Trường mình nằm ở trung tâm thành phố Hồ Chí Minh"
+            ]
+        },
+		{
+            "tag": "about_school2",
+            "patterns": [
+                "Trường bạn top mấy Việt nam",
+                "Trường bạn có vào top các trường nổi tiếng không"
+            ],
+            "responses": [
+                "Trường mình top 500 thế giới á và còn nhiều top khác nữa nha",
+                "Trường mình được bình chọn vào top đầu đại học"
+            ]
+        },
+		{
+            "tag": "tinchi",
+            "patterns": [
+                "Cho em hỏi về học phí tín chỉ của ngành Công Nghệ Thông Tin trong trường mình với",
+                "Nếu em theo học ngành CNTT ở trường thì cần bao nhiêu tín chỉ để tốt nghiệp"
+            ],
+            "responses": [
+                "Tùy vào số tín chỉ một học kì em đăng kí mà học phí cao hay thấp",
+                "Em cần 4 năm và trong 4 năm đó em phải hoàn thành tổng cộng 138 tín chỉ và nhiều yêu cầu khác"
+            ]
+        },
+		{
+			"tag": "tinchi1",
+			"patterns": [
+				"Cho em hỏi bao nhiêu tín chỉ thì được tốt nghiệp vậy",
+				"Mỗi tín chỉ của từng môn đều bằng nhau phải không"
+			],
+			"responses": [
+				"Tùy thuộc vào từng ngành mà sẽ quy định số lượng tín chỉ tối thiểu để tốt nghiệp em nhé",
+				"Tùy vào từng môn mà giá mỗi tín chỉ sẽ khác nhau nhe"
+			]
+		},
+		{
+            "tag": "slogan",
+            "patterns": [
+                "sologan",
+                "sologan là gì",
+                "Trường có slogan nào không",
+                "Slogan của trường là gì vậy",
+                "Các bạn sinh viên của trường có biết slogan không"
+            ],
+            "responses": [
+                "Trường có một slogan rất hay và ý nghĩa nha bạn",
+                "Slogan là: Từ nơi đây, ánh sáng sẽ chiếu đến khắp nơi trong vũ trụ",
+                "Slogan của trường có ý nghĩa vô cùng to lớn mang một nhiệm vụ lớn lao",
+                "Là sinh viên của trường thì đều biết và nhớ slogan đó bạn"
+            ]
+        },
+		{
+            "tag": "mascot",
+            "patterns": [
+                "Nghe nói trường TDTU có mascot xịn sò"
+            ],
+            "responses": [
+                "Đúng rồi nha, trường có mascot là: Họ mèo thông thái"
+            ]
+        },
+		{
+            "tag": "dacdiemnhandang",
+            "patterns": [
+                "Sinh viên trường có đặc điểm gì nổi bậc"
+            ],
+            "responses": [
+                "Là sinh viên trường TDTU sẽ có nhiều đặc điểm nổi bậc đó nha",
+                "Kỹ luật - Lễ phép - Chuyên nghiệp - Sáng tạo - Phụng sự",
+                "Sinh viên trường luôn lễ phép với nhiều quy tắc ứng xử văn minh",
+                "Sinh viên luôn có tinh thần trách nhiệm trong học tập và công việc đó nha"
+            ]
+        },
+		{
+            "tag": "quytac_ungxu",
+            "patterns": [
+                "Ở trường lớn như vậy thì có tuân thủ một quy tắc nào không",
+                "Mọi người có dễ dàng chấp hành không",
+                "Lợi ích của quy tắc ứng xử là gì vậy"
+            ],
+            "responses": [
+                "Trường có quy tắc ứng xử vô cùng nghiêm nha bạn",
+                "Văn minh nơi công cộng, bảo vệ tài sản nhà trường, tôn trọng tự do cá nhân, ứng xủ trong học thuật, tôn trọng quyền sở hữu trí tuệ",
+                "Quy tắc ứng xử rất đơn giản nên mọi người chấp hành rất tuyệt nha",
+                "Bộ quy tắc ứng xử sẽ giúp chúng ta rèn luyện nhiều kỹ năng phục vụ cho công việc, cuộc sống rất nhiều đó nha"
+            ]
+        },
+		{
+            "tag": "khenthuong",
+            "patterns": [
+                "Trường mình có chính sách khen thưởng thế nào",
+                "Khen thưởng dưới hình thức nào"
+            ],
+            "responses": [
+                "Trường có rất nhiều chính khách khen thưởng nha",
+                "Khen thưởng được trao dưới hình thức học bổng đó bạn"
+            ]
+        },
+		{
+            "tag": "khenthuong1",
+            "patterns": [
+                "Những đối tượng nào được khen thưởng"
+            ],
+            "responses": [
+                "Hầu hết tất cả các đối tượng nếu đủ điều kiện khen thưởng thì đều nhận được khen thưởng nha"
+            ]
+        },
+		{
+            "tag": "3noidungdaoduc",
+            "patterns": [
+                "Nghe nói trường có 3 nội dung đạo đức rất nề nếp",
+                "3 nội dung đạo đức ấy là gì",
+                "Bạn có thể liệt kê 3 nội dung đạo đức ấy được không"
+            ],
+            "responses": [
+                "Trường có 3 nội dung đạo đức rất nề nếp và ý nghĩa",
+                "3 nội dung đạo đức nhắc nhở về tác phong cũng như ứng xử mà một sinh viên cần rèn luyện và học tập",
+                "3 nội dung đạo đức đó là: Tích cực học tập rèn luyện, sống kỷ luật và phải có tinh thần tập thê"
+            ]
+        },
+		{
+            "tag": "sinhvien5tot",
+            "patterns": [
+                "Ở trường có danh hiệu nào cho sinh viên không",
+                "Sinh viên 5 tốt là danh hiệu có dễ dàng đạt được không",
+                "Có nhiều sinh viên đạt được danh hiệu này không"
+            ],
+            "responses": [
+                "Danh hiệu sinh viên 5 tốt nha bạn",
+                "Danh hiệu sinh viên 5 tốt không quá khó chỉ cần chúng ta cố gắng nha",
+                "Hiện tại ở trường có rất nhiều sinh viên đạt được rồi nha"
+            ]
+        },
+		{
+            "tag": "sinhvien",
+            "patterns": [
+                "Bạn học năm mấy rồi",
+                "Bạn là sinh viên năm mấy ",
+                "bạn học mấy năm ở trường rồi" 
+            ],
+            "responses": [
+                "Năm 3",
+                "Mình là sinh viên năm 3"
+            ]
+        },
+		{
+            "tag": "hoatdong_ngoaikhoa",
+            "patterns": [
+                "trường có tổ chức hoạt động vui chơi cho sinh viên không",
+                "học ở TDTU có nhiều hoạt động không bạn"
+            ],
+            "responses": [
+                "Các khoa trường mình năm nào cũng có tổ chức nhiều hoạt động cho sinh viên nha",
+                "Ở trường có vô số hoạt động ngoại khóa cho chúng ta luôn nha"
+            ]
+        },
+		{
+            "tag": "lichthi",
+            "patterns": [
+                "Làm thế nào để biết lịch thi"
+            ],
+            "responses": [
+                "Các bạn sinh viên theo dõi trên HTTTSV để cập nhật lịch thi chính xác nha"
+            ]
+        },
+		{
+            "tag": "lichthi1",
+            "patterns": [
+                "xin hoãn thi"
+            ],
+            "responses": [
+                "Để hoãn thi bạn cần làm đơn xin hoãn thi và phải co lý do chính đáng để được duyệt hoãn thi nha",
+				"Để được hoãn thi bạn phải có lý do chính đáng"
+            ]
+        },
+		{
+            "tag": "lichthi2",
+            "patterns": [
+				"tổ chức thi lại đợt 2"
+            ],
+            "responses": [
+				"Tùy điều kiện, tùy trường hợp mà nhà trường sẽ ra quyết định tổ chức thi đợt 2 nha",
+				"Rất hiếm khi tổ chức thi lại đợt 2"
+            ]
+        },
+		{
+            "tag": "lichthi3",
+            "patterns": [
+                "Trong khoảng thời gian thi chúng em có cần phải tham gia các lớp học trên lớp không"
+            ],
+            "responses": [
+				"Thông thường vào tuần thi giữa kỳ, cuối kỳ các bạn sẽ được nghỉ các lớp trên trường để tập trung ôn bài thi tốt hơn"
+            ]
+        },
+		{
+            "tag": "hocbong",
+            "patterns": [
+                "Trường mình có học bổng rất cao phải không",
+                "Có những chính sách gì về học bổng" 
+            ],
+            "responses": [
+                "Trường có nhiều loại học bổng rất cao đó bạn",
+                "Có rất nhiều loại học bổng của trường mà bạn có thể xét theo điều kiện của bản thân nha"
+            ]
+        },
+		{
+            "tag": "hocbong1",
+            "patterns": [
+                "Hoàn cảnh khó khăn" 
+            ],
+            "responses": [
+				"Hoàn cảnh khó khăn sẽ được nhà trường hỗ trợ đó nha",
+				"Hoàn cảnh khó khăn sẽ được nhà trường tặng học bổng và tạo điều kiện"
+            ]
+        },
+		{
+            "tag": "nhavesinh",
+            "patterns": [
+                "Các phòng vệ sinh trường mình phân bố như thế nào vậy cô ơi",
+				"Nhà vệ sinh có sạch không"
+            ],
+            "responses": [
+                "Mỗi tòa nhà thường thì sẽ có các nhà vệ sinh, các nhà vệ sinh ở các tầng trệt và gần trệt thường thì sẽ là các nhà vệ sinh dành cho giảng viên. Ở mỗi tầng đều có các nhà vệ sinh",
+				"Nhà vệ sinh vô cùng sạch sẽ nha"
+			]
+        },
+		{
+            "tag": "MOS",
+            "patterns": [
+                "Chường mình có dạy chứng chỉ tin học phải không",
+                "Có thể đăng ký thi tại trường phải không"
+            ],
+            "responses": [
+                "Trường có tổ chức dạy và lấy chứng chỉ tin học nha bạn",
+                "Trường sẽ thông báo đến sinh viên các đợt đăng ký học, thi, nộp đơn để lấy chứng chỉ MOS nha"
+            ]
+        },
+		{
+            "tag": "MOS1",
+            "patterns": [
+                "Mình có thể lấy chứng chỉ MOS ngoài trường" 
+            ],
+            "responses": [
+				"Tất nhiên bạn có thể học MOS ở bên ngoài nha"
+            ]
+        },
+		{
+            "tag": "MOS2",
+            "patterns": [
+                "Mình có thể lấy chứng chỉ MOS ngoài trường không" 
+            ],
+            "responses": [
+				"Tất nhiên bạn có thể học MOS ở bên ngoài nha",
+				"Có thể thi MOS ở ngoài để nộp bằng cho trường"
+            ]
+        },
+		{
+            "tag": "sinhhoat_chunhiem",
+            "patterns": [
+                "mỗi tuần các lớp đều phải sinh hoạt chủ nhiệm",
+                "Nội dung sinh hoạt chủ nhiệm bao gồm những gì",
+                "Sinh hoạt chủ nhiệm có quan trọng không" 
+            ],
+            "responses": [
+                "Khoảng 2-3 tuần thì lớp tổ chức sinh hoạt chủ nhiệm",
+                "Nội dung sinh hoạt sẽ phân bố theo nội dung kế hoạch nhà trường đề ra, giúp chúng ta biết được những nội dung sắp diễn ra",
+				"Nếu không tham gia sinh hoạt đầy đủ bạn sẽ bị trừ điểm rèn luyện hoặc xủ lý theo quy định nhà trường đó"
+            ]
+        },
+		{
+            "tag": "phuckhao",
+            "patterns": [
+                "Sinh viên thắc mắc về kết quả học tập có được phép phúc khảo không",
+                "Làm thế nào để phúc khảo"
+            ],
+            "responses": [
+                "Bạn có quyền phúc khảo lại các bài kiểm tra, bài thi nếu có thắc mắc nha",
+                "Bạn cần làm đơn và nộp lên nhà trường để xét duyệt phúc khảo",
+				"Mỗi học kỳ trường sẽ mở rất nhiều đợt để nhận đơn phúc khảo nên bạn không cần lo lắng nha"
+            ]
+        },
+		{
+            "tag": "phuckhao1",
+            "patterns": [
+				"Phúc khảo mất phí bao nhiêu vậy"
+            ],
+            "responses": [
+				"Mỗi bài phúc khảo sẽ mất một khoảng phí nhỏ nha bạn",
+				"Mỗi đơn phúc khảo chỉ tốn ít tiền thôi nha"
+            ]
+        },
+		{
+            "tag": "baohiemyte",
+            "patterns": [
+                "Nghe nói trường có hỗ trợ bảo hiểm y tế cho sinh viên",
+                "Làm thế nào để mua bhyt của trường"
+            ],
+            "responses": [
+                "Ở trường có bán BHYT nên việc mua bảo hiểm rất tiện lợi mà không mất nhiều thời gian nha",
+                "Các bạn sinh viên đăng ký mua Bảo hiểm y tế (BHYT) theo đợt mà nhà trường thông báo nha"
+            ]
+        },
+		{
+            "tag": "thuctap",
+            "patterns": [
+                "bạn đã đi thực tập chưa",
+                "bạn thực tập bao lâu rồi" 
+            ],
+            "responses": [
+                "Mình vẫn còn học vẫn chưa thực tập nha",
+                "Mình còn đi học vẫn chưa thục tập",
+				"Thục tập năm sau mình sẽ đi"
+            ]
+        },
+		{
+            "tag": "thuctap1",
+            "patterns": [
+                "trường có chổ thực tập nào không",
+                "đi thực tập có cần nhiều thủ tục không" 
+            ],
+            "responses": [
+                "Trường sẽ có những doanh nghiệp giới thiệu cho chúng ta thực tập nha",
+				"Tùy doanh nghiệp, công ty mà bạn thực tập sẽ có chổ cho bạn thực tập"
+            ]
+        },
+		{
+            "tag": "tuyendung",
+            "patterns": [
+                "Trường có tuyển dụng không"
+            ],
+            "responses": [
+                "Trường khi có những đợt tuyển dụng sẽ thông báo trên hệ thống để sinh viên theo dõi",
+                "Trường có rất nhiều chương trình tuyển dụng để sinh viên có thể tìm hiểu nha bạn"
+            ]
+        },
+		{
+            "tag": "tuyendung1",
+            "patterns": [
+                "Trường có những chương trình tuyển dụng nào"
+            ],
+            "responses": [
+                "Trường khi có rất nhiều đợt tuyển dụng sẽ thông báo trên hệ thống để sinh viên theo dõi",
+                "Trường có rất nhiều chương trình tuyển dụng"
+            ]
+        },
+		{
+            "tag": "thamquan",
+            "patterns": [
+                "Nghe nói sinh viên trường khác có thể ghé thăm TDTU"
+            ],
+            "responses": [
+                "Đúng rồi nha bạn, các bạn sinh viên trường khác có thể đến tham quan TDTU nha",
+                "Bạn cần có người hướng dẫn và tuân thủ các quy tắc khi là khách tham quan nha",
+				"Tham quan trường cần có sự cho phép của bác bảo vệ và thẻ khách"
+            ]
+        },
+		{
+            "tag": "thamquan1",
+            "patterns": [
+                "Làm thế nào để vào xem tham quan trường",
+                "Tham quan trường có mất phí không" 
+            ],
+            "responses": [
+                "Bạn cần có người hướng dẫn và tuân thủ các quy tắc khi là khách tham quan và hoàn toàn miễn phí",
+				"Tham quan trường hoàn toàn miễn phí chỉ cần có hội bạn đi theo thôi nha"
+            ]
+        },
+		{
+            "tag": "tuyensinh",
+            "patterns": [
+                "Nhà trường có bao nhiêu hình thức tuyển sinh",
+                "Cách để tư vấn tuyển sinh"
+            ],
+            "responses": [
+                "Trường có hai hình thức tuyển sinh là xét học bạ và lấy điểm đại học",
+                "Bạn theo dõi hệ thống của trường và trường cũng có thông báo cho bạn thông tin tuyển sinh",
+				"Bạn liên hệ phòng CTHSHV của trường để được tư vấn rõ hơn"
+            ]
+        },
+		{
+            "tag": "events",
+            "patterns": [
+                "Ở trường có những sự kiện gì nổi bậc",
+                "Cách thức hoạt động như thế nào"
+            ],
+            "responses": [
+                "Tham gia cổ vũ cuộc thi văn nghệ của các câu lạc bộ tại trường",
+                "Ở trường tổ chức rất nhiều sự kiện cho sinh viên tham gia vui chơi, giải trí nha bạn"
+            ]
+        },
+		{
+            "tag": "events1",
+            "patterns": [
+                "Làm sao để tham gia những sự kiện tại trường" 
+            ],
+            "responses": [
+				"Bạn cần đăng ký để được tham dự sự kiện nha",
+				"Bạn cần điền form đăng ký để tham gia sự kiện"
+            ]
+        },
+		{
+            "tag": "theduc_thethao",
+            "patterns": [
+                "Trường mình có chỗ nào để rèn luyện thể dục thể thao không",
+                "Trường mình có khu vui chơi giải trí , như bóng đá , cầu lông không",
+                "Bạn có biết trong trường TDTU có nhiều clb thể dục thể thao không" 
+            ],
+            "responses": [
+                "Trường mình có nhà thi đấu, hồ bơi, sân tennis, sân bóng rổ, ... Đều có thể dùng để rèn luyện thể thao nhé",
+                "Trường TDTU có nhiều môn thể thao do trường tổ chức , bạn có thể tham gia vào các nhóm Có nhiều bộ môn thể thao như cầu lông , tenis và cả bóng đá ...",
+				"Trường TDTU có rất nhiều clb bổ ích để rèn luyện bản thân đặc biệt là clb thể thao"
+            ]
+        },
+		{
+            "tag": "golf",
+            "patterns": [
+                "trường mình có đào tạo ngành golf phải không",
+                "Trường TDT có sân golf không"
+            ],
+            "responses": [
+                "Trường có đạo tạo quản lý golf nha bạn",
+                "Trường mình có một sân golf rất lớn nha"
+            ]
+        },
+        {
+			"tag": "hocphi",
+			"patterns": [
+                "học phí bao nhiêu",
+                "học phí đắt quá",
+				"học phí ở TDTU",
+                "Học phí hàng năm của trường là bao nhiêu",
+				"Học phí của trường bạn đắt không"
+			],
+			"responses": [
+				"Là trường công lập nên học phí được thu theo quy định của nhà nước và không thêm bất kì khoảng phí phát sinh nào",
+				"Tầm 20 triệu áp dụng cho hệ đào tạo chính quy và 40 triệu cho hệ chất lượng cao nhé bạn.",
+				"Rẻ lắm bạn ạ, nhưng bạn phải giàu 1 tí"
+			]
+		},
+		{
+            "tag": "hocphi1",
+            "patterns": [
+                "Học phí được phép gia hạn không",
+				"Có thể gia hạn trong bao lâu"
+            ],
+            "responses": [
+                "Em sẽ làm thủ tục gia hạn học phí để được gia hạn",
+				"Có lý do chính đáng sẽ được gia hạn học phí nha",
+				"Gia hạn theo thời gian quy định"
+            ]
+        },
+		        {
+			"tag": "hocphi2",
+			"patterns": [
+				"gia hạn học phí"
+			],
+			"responses": [
+                "Tất nhiên là được nếu bạn có yêu cầu gia hạn"
+			]
+		},
+		{
+            "tag": "donghocphi",
+            "patterns": [
+                "Đóng học phí thế nào",
+				"Làm thế nào để đóng học phí",
+				"Hoàn thành học phí ở đâu"
+            ],
+            "responses": [
+                "Em đóng theo hướng dẫn trên hệ thống thông tin sinh viên trường nhé",
+				"Trường thông báo rồi sinh viên hoàn thành học phí theo hướng dẫn nhé"
+            ]
+        },
+		{
+            "tag": "nganh_daotao",
+            "patterns": [
+                "Trường mình có tổng cộng bao nhiêu ngành đào tạo",
+                "Trường Đại Học Tôn Đức Thắng đào tạo bao nhiêu ngành"
+            ],
+            "responses": [
+                "Trường mình có 39 ngành đào tạo nha",
+				"Chương trình tiêu tuẩn gồm 40 ngành, là chương trình đào tạo các kỹ sư/ cử nhân/ kiến trúc sử/ dược sĩ"
+            ]
+        },
+		{
+            "tag": "nganh_daotao1",
+            "patterns": [
+				"liệt kê ra tất cả các khối ngành mà TDTU đang đào tạo"
+            ],
+            "responses": [
+				"Hiện tại trường Đại Học Tôn Đức Thắng đang đào tạo tổng cộng 17 khối ngành bao gồm: công nghệ thông tin, mỹ thuật công nghiệp, kỹ thuật công trình, điện - điện tử, tài chính ngân hàng, toán - thống kê, quản trị kinh doanh, kế toán, giáo dục quốc tế, khoa học ứng dụng, luật, khoa học thể thao, dược, khoa học xã hội & nhân văn, ngoại ngữ, môi trường & bảo hộ lao động, lao động công đoàn"
+            ]
+        },
+		{
+            "tag": "lotrinh_daotao",
+            "patterns": [
+                "Lộ trình đào tạo tại TDTU như thế nào cậu nhỉ",
+                "Trình độ đào tạo của trường thế nào"
+            ],
+            "responses": [
+                "Đại học Tôn Đức Thắng (TDTU) cung cấp nhiều chương trình giáo dục bậc đại học đào tạo trong các lĩnh vực kinh tế, quản trị, xã hội học, du lịch,...",
+                "Trường đào tạo tiêu chuẩn và chất lượng cao em nhé"
+            ]
+        },
+		{
+            "tag": "truongtrinhhoc",
+            "patterns": [
+                "Bạn học chương trình học gì",
+                "Chương trình học của bạn mất mấy năm",
+				"Chương trình học của bạn có dài quá không"
+            ],
+            "responses": [
+                "Tớ học chương trình chất lượng cao nên không lâu quá đâu",
+                "Mình học chương trình tiêu chuẩn cần 4 năm học tại trường",
+				"Mình nghĩ là không quá dài cũng không quá ngắn để tiếp thu kiến thức",
+				"Trường có chương trình tiêu chuẩn, chất lượng cao, luân chuyển Campus đó bạn"
+            ]
+        },
+		{
+            "tag": "truongtrinhhoc1",
+            "patterns": [
+				"Ở trường còn có những chương trình học nào khác không"
+            ],
+            "responses": [
+				"Ngoài chương trình tiêu chuẩn thì ở trường còn có chương trình chất lượng cao, luân chuyển Campus đó bạn"
+            ]
+        },
+		{
+            "tag": "truongtrinhhoc2",
+            "patterns": [
+                "Bạn học chương trình học gì"
+            ],
+            "responses": [
+                "Tớ học chương trình chất lượng cao"
+            ]
+        },
+		{
+            "tag": "truongtrinhhoc3",
+            "patterns": [
+                "Chương trình học của bạn mất mấy năm",
+				"Chương trình học của bạn có dài quá không"
+            ],
+            "responses": [
+                "Tầm 4 năm thì phải",
+				"Mình nghĩ là không quá dài cũng không quá ngắn để tiếp thu kiến thức"
+            ]
+        },
+		{
+            "tag": "truongtrinhhoc4",
+            "patterns": [
+				"những chương trình học khác"
+            ],
+            "responses": [
+				"Trường có chương trình tiêu chuẩn, chất lượng cao, luân chuyển Campus đó bạn"
+            ]
+        },
+		{
+            "tag": "baoluuketquahoctap",
+            "patterns": [
+                "Để bảo lưu mình cần làm gì"
+            ],
+            "responses": [
+                "Mình sẽ thực hiện bảo lưu kết quả theo quy định nhà trường nha",
+				"Bảo lưu kết quả học tập nhưng vẫn có thời hạn nha bạn"
+            ]
+        },
+		{
+            "tag": "cosovatchat",
+            "patterns": [
+                "Cơ sở vật chất của trường như thế nào",
+                "Cơ sở vật chất của trường mình có tốt không",
+                "Vậy cơ sở vật chất thì như thế nào vậy ",
+				"Cơ sở vật chất của trường có gì khá biệt"
+            ],
+            "responses": [
+                "Cơ sở vật chất của trường TĐT đạt chuẩn 5/5 sao ( theo QS Star Anh Quốc) đảm bảo cho sự phát triển toàn diện của sinh viên",
+                "Cơ sở vật chất trường mình đạt 5 sao theo tiêu chuẩn quốc tế luôn nha",
+				"Cơ sở vật chât khỏi chê, trường có có thư viện xin nhất trong các trường đại học",
+				"Trường Đại Học Tôn Đức Thắng tự hào là một trong những trường đại học hiện đại nhất nước với cơ sở vật chất hiện đại, khang trang và sạch sẽ"
+            ]
+        },
+		{
+            "tag": "wifi",
+            "patterns": [
+                "cho em hỏi trường có wifi không vậy",
+                "có được sủ dụng wifi không"
+            ],
+            "responses": [
+                "Trường mình có wifi tiện ích luôn nhé",
+                "Bạn chỉ được sử dụng wifi vào mục đích học tập"
+            ]
+        },
+		{
+            "tag": "chuandaura",
+            "patterns": [
+                "chuẩn đầu ra tiếng anh là gì vậy",
+                "chuẩn đầu ra Ielts/TOIEC thì sao" 
+            ],
+            "responses": [
+				"Chuẩn Ielts là 5.5, toeic là 550 nha bạn"
+            ]
+        },
+		{
+            "tag": "chuandaura1",
+            "patterns": [
+                "trường mình đầu ra có đảm bảo việc làm cho sinh viên không"
+            ],
+            "responses": [
+                "Đại học tôn đức thắng đảm bảo 99 phần trăm cơ hội việc làm cho các bạn sinh viên ra trường nha"
+            ]
+        },
+		{
+            "tag": "nhatro",
+            "patterns": [
+                "Bạn ở nhà trọ hay ktx",
+                "Gần trường có nhiều trọ không"
+            ],
+            "responses": [
+                "Mình ở nhà trọ gần trường",
+                "Gần trường có rất nhiều nhà trọ nên bạn không cần lo lắng sẽ thiếu phòng nha"
+            ]
+        },
+		{
+            "tag": "thayco",
+            "patterns": [
+                "Bạn có thấy thầy cô trong trường có thân thiện với sinh viên không",
+                "Thầy cô trong trường có tốt không, bằng cấp như thế nào ạ",
+				"Thầy cô trong trường dạy hay không vậy bạn  ",
+				"Cho em hỏi thầy cô trong trường giảng dạy thế nào",
+				"Em muốn hỏi là thầy cô của trường như thế nào"
+            ],
+            "responses": [
+                "Thầy cô rất thân thiện với sinh viên",
+				"Thầy cô có chuyên môn rất tốt",
+				"Thầy cô trường mình giảng dạy nhiệt tình, tận tâm với nghề",
+				"Các thầy cô trong trường rất nhiệt tình trong giảng dạy và hỗ trợ sinh viên bạn nhé",
+				"Thầy cô trường mình có trình độ chuyên môn cao em nhé"
+            ]
+        },
+		{
+            "tag": "thayco1",
+            "patterns": [
+                "Trường mình thầy cô nghiêm khắc không",
+                "Thầy cô trong trường có tốt không, bằng cấp như thế nào",
+				"Thầy cô trong trường dạy hay không vậy bạn  ",
+				"Cho em hỏi thầy cô trong trường giảng dạy thế nào",
+				"Cho em hỏi thầy cô trường mình có chuyên môn cao không"
+            ],
+            "responses": [
+                "Thầy cô khá nghiêm túc",
+                "Thầy cô rất thân thiện với sinh viên",
+				"Dạy hay á, thầy cô khá là nice",
+				"Thầy cô rất tâm huyết với sinh viên",
+				"Thầy cô trường mình trình độ chuyên môn cao"
+            ]
+        },
+		{
+			"tag": "phonghoc",
+			"patterns": [
+				"trường mình có bao nhiều phòng học vậy",
+				"các phòng học có thoải mái không",
+				"cho em hỏi là chất lượng phòng học có tốt không"
+			],
+			"responses": [
+				"Trường có khoảng 4.760 chỗ rộng rãi, trong đó có 560 phòng dành cho sinh viên, học viên",
+				"Phòng học được bố trí rộng rãi, có đầy đủ thiết bị giảng dạy",
+				"Phòng học đầy đủ tiện nghi, ánh sáng, tới máy lạnh không thiếu gì cả",
+				"Phòng học được trang bị máy chiếu và máy lạnh hiện đại giúp trãi nghiệm học tập"
+			]
+		},
+		{
+			"tag": "phonghoc1",
+			"patterns": [
+				"phòng học có trang bị máy lạnh không",
+				"người ta thường nói vui về trường học 4 mùa như Đà lạt là sao"
+			],
+			"responses": [
+				"Mỗi phòng học đều được trang bị máy lạnh đầy đủ nên siêu thoải mái",
+				"Mỗi phòng học đều có nhiều máy lạnh và mở 24/24 bạn nhé"
+			]
+		},
+		{
+            "tag": "phonghoc2",
+            "patterns": [
+                "bạn đi học ở phòng nào",
+                "Ngày mai mình học môn NLP ở phòng nào vậy bạn",
+                "Bạn học các môn thực hành ở phòng nào" 
+            ],
+            "responses": [
+                "mình đang học ở phòng A703",
+                "Ngày mai mình học môn NLP ở D0502-A",
+				"MÌnh học thực hành NLP ở phòng máy"
+            ]
+        },
+		{
+			"tag": "phonglab",
+			"patterns": [
+				"Trường mình có phòng lab nghiên cứu không ạ",
+				"Phòng lab có hiện đại không",
+				"Số lượng sinh viên nhiều như vậy có đáp ứng được phòng lab không"
+			],
+			"responses": [
+				"Trường có phòng lab thực hành rất rộng nha",
+				"Trường có phòng lab đầy đủ tiện nghi phục vụ học tập nha bạn",
+				"Trường đã xây dựng và bố trí các phòng lab thích hợp và đầy đủ cho sinh viên tha gia nha"
+			]
+		},
+		{
+            "tag": "monhoc",
+            "patterns": [
+                "Bạn thấy tự tin ở điểm nào về các môn học của mình ở trường",
+                "Môn học nào mà bạn cảm thấy yêu thích nhất ",
+				"Môn học nào bạn thấy thú vị nhất"
+            ],
+            "responses": [
+                "Tương lai của nhân loại",
+                "Mình thích môn toán nhất"
+            ]
+        },
+		{
+            "tag": "monhoc1",
+            "patterns": [
+                "Môn học này em được nghỉ bao nhiêu buổi vậy"
+            ],
+            "responses": [
+                "Mỗi môn học này được nghỉ không quá 20% số buổi nha em.",
+                "Môn học này được nghỉ tối đa 3 buổi nha bạn"
+            ]
+        },
+		{
+            "tag": "loaimonhoc",
+            "patterns": [
+                "Ở trường có chia ra nhiều loại môn học không"
+            ],
+            "responses": [
+                "Trường chia ra làm nhiều loại môn học để phù hợp với chuyên ngành đào tạo",
+                "Môn học bắt buộc, môn học tự chọn, nhóm môn tiên quyết, môn học song hành, môn học trước",
+				"Sinh viên cần nắm rõ thông tin của những nhóm môn học để biết về quy định để đăng ký môn học"
+            ]
+        },
+		{
+            "tag": "loaimonhoc1",
+            "patterns": [
+                "Có thể liệt kê các loại môn học đó được không"
+            ],
+            "responses": [
+                "Trường có nhiều loại môn học để phù hợp với chuyên ngành đào tạo mà sinh viên có thể đăng ký học",
+                "Môn học bắt buộc, môn học tự chọn, nhóm môn tiên quyết, môn học song hành, môn học trước"
+            ]
+        },
+		{
+			"tag": "nhathidau",
+			"patterns": [
+				"Nhà thi đấu được hoàn thành khi nào"
+			],
+			"responses": [
+				"Khánh thành vào ngày 19/07/2012 nhân kỷ niệm 84 năm ngày thành lập Công đoàn Việt Nam."
+			]
+		},
+		{
+			"tag": "nhathidau1",
+			"patterns": [
+				"Các tiện ích ở nhà thi đấu bao gồm những gì",
+				"Chúng ta có thể lamg gì tại nhà thi đấu"
+			],
+			"responses": [
+				"Có rất nhiều hoạt động được diễn ra ở nhà thi đấu",
+				"Tầng trệt là khu vực tập luyện các môn võ thuật, bóng bàn, boxing, kiếm đạo, múa đương đại, cờ vua, ... Ngoài ra, tại tầng trệt còn bố trí phòng họp báo; khu sinh hoạt và nghỉ ngơi cho vận động viên"
+			]
+		},
+		{
+			"tag": "hoboi",
+			"patterns": [
+				"Nghe nói ở trường có hồ bơi sịn",
+				"Trường mình có bao nhiêu hồ bơi vậy"
+			],
+			"responses": [
+				"Đúng rồi nha, trường có tận 2 khu vực hồ bơi vô cùng lớn và sịn xò",
+				"Trường có tổng cộng 2 hồ bơi rất lớn nha "
+			]
+		},
+		{
+			"tag": "thietbi_hoctap",
+			"patterns": [
+				"Trang thiết bị trong trường có tốt không",
+				"Trang thiết bị của trường thế nào"
+			],
+			"responses": [
+				"Tốt chứ bạn, không tốt thì sao mà đạt chuẩn quốc tế được"
+			]
+		},
+		{
+			"tag": "thietbi_hoctap1",
+			"patterns": [
+				"Trang thiết bị trong trường phục vụ mục đích gì"
+			],
+			"responses": [
+				"Trang thiết bị trong trường phục vụ cho tất cả các ngành học liên quan",
+				"Đa số thiết bị được cung cấp cho sinh viên thực hành, học tập"
+			]
+		},
+		{
+			"tag": "diemrenluyen",
+			"patterns": [
+				"làm cách nào để lấy được điểm rèn lyện",
+				"lấy điểm rèn luyện có khó không"
+			],
+			"responses": [
+				"Thông thường trường sẽ tổ chức các hoạt động, tìm hiểu, cuộc thi,... để chúng ta tham gia để được điểm rèn luyện nhé",
+				"Theo quy định của nhà trường thì trung bình điểm rèn luyện của em phải từ 50 điểm trở lên mới được cấp bằng tốt nghiệp nhé"
+			]
+		},
+		{
+			"tag": "diemrenluyen1",
+			"patterns": [
+				"nếu không đủ điểm rèn luyện thì có bị làm sao không"
+			],
+			"responses": [
+				"Không đủ điểm rèn luyện tùy theo mức độ sẽ có hướng xủ lý, giải quyết theo quy định nhà trường nha bạn"
+			]
+		},
+		{
+			"tag": "view_truonghoc",
+			"patterns": [
+				"trường bạn có view sống ảo nhiều không",
+				"trường bạn có nhiều cảnh đẹp không"
+			],
+			"responses": [
+				"trường mình chỗ nào cũng có thể chụp hình sống ảo bạn nhé",
+				"trường mình có gần 20 tòa nhà với tầm nhìn vô cùng xịn xò nha",
+				"trường mình bao nhiều cảnh đẹp bạn nhé"
+			]
+		},
+		{
+			"tag": "ngoaingu",
+			"patterns": [
+				"Bạn có đi học thêm ngoại ngữ bên ngoài không ",
+				"Tiếng Anh của bạn như thế nào  "
+			],
+			"responses": [
+				"Mình có đi học thêm tiếng anh bên ngoài để cải thiện trình độ ngoại ngữ",
+				"Mình cần phải học ngoại ngữ để nộp bằng tốt nghiệp",
+				"Trường rất chú trọng vào ngoại ngữ, đặc biệt là tiếng Anh, sinh viên cần nộp bằng ngoại ngữ để được ra trường nha"
+			]
+		},
+		{
+			"tag": "ngoaingu1",
+			"patterns": [
+				"Trường có quá khắt khe về vấn đề ngoại ngữ không",
+				"Có những yêu cầu gì về ngoại ngữ vậy"
+			],
+			"responses": [
+				"Trường rất chú trọng vào ngoại ngữ, đặc biệt là tiếng Anh",
+				"Chuẩn đầu ra của trường có chứng chỉ quốc tế tương đương IELTS 5.0"
+			]
+		},
+		{
+			"tag": "nomonhoc",
+			"patterns": [
+				"Bạn đã nợ môn bao giờ chưa",
+				"Bạn nợ môn có nhiều không"
+			],
+			"responses": [
+				"mình nợ cũng không nhiều đâu, trên dưới 10 môn thôi"
+			]
+		},
+		{
+			"tag": "nomonhoc1",
+			"patterns": [
+				"Nợ môn có bị sao không",
+				"Để giải quyết nợ môn thì phải làm sao"
+			],
+			"responses": [
+				"nợ quá nhiều môn sẽ không tốt, dẫn đến trễ tiến độ và thời gian cho phép học tại trường đó",
+				"Nợ môn thì sinh viên cần cố gắng học tập để xóa nợ nè!"
+			]
+		},
+		{
+			"tag": "monhoc_tuchon",
+			"patterns": [
+				"Em nên học môn nào trong nhóm tự chọn 2 của mình đây anh"
+			],
+			"responses": [
+				"Em nên học Xử lí ngôn ngữ tự nhiên mình thấy nó là một môn rất đáng để học"
+			]
+		},
+		{
+			"tag": "thinangkhieu",
+			"patterns": [
+				"trường mình có tổ chức thi năng khiếu không"
+			],
+			"responses": [
+				"Mỗi năm trường đều tổ chức thi năng khiếu và chia ra nhiều đợt để xét tuyển nha bạn"
+			]
+		},
+		{
+			"tag": "thinangkhieu1",
+			"patterns": [
+				"để đăng ký thi năng khiếu thì liên hệ ai",
+				"thủ tục thi bao gồm những gì"
+			],
+			"responses": [
+				"Mỗi năm trường đều tổ chức thi năng khiếu và chia ra nhiều đợt để xét tuyển năng khiếu nha bạn",
+				"Thí sinh in phiếu đăng ký dự thi, ký tên xác nhận vào phiếu, trường THPT đang học đóng dấu xác nhận gửi về Phòng đại học (A0005), Trường ĐH Tôn Đức Thắng số 19, Nguyễn Hữu Thọ, P. Tân Phong, Q.7, TP.HCM.",
+				"Hồ sơ đăng ký dự thi bao gồm: Phiếu đăng ký dự thi (in ra từ hệ thống sau khi đăng ký thành công). Bản photo chứng thực CMND/Thẻ căn cước công dân.02 ảnh 3x4. Chi phí tổ chức thi 300.000 đồng/đợt thi/nhóm môn năng khiếu"
+			]
+		},
+		{
+			"tag": "nganhhoc",
+			"patterns": [
+				"Ngành bạn đang theo học là gì",
+				"chuyên ngành bạn đang học có phù hợp với sở thích của bạn không"
+			],
+			"responses": [
+				"Mình học ngành Công Nghệ Thông Tin rất thú vị",
+				"Thật sự nhiều lúc khá áp lực, nhưng mình hài lòng về ngành học này",
+				"Ngành này khó và mới nên cũng là 1 xu hướng hot"
+			]
+		},
+		{
+			"tag": "nganhhoc1",
+			"patterns": [
+				"Bạn có thoải mái với nghành bạn đang học không",
+				"Bạn nghĩ như thế nào về ngành học của mình"
+			],
+			"responses": [
+				"Thật sự nhiều lúc khá áp lực, nhưng mình hài lòng về ngành học này",
+				"Mình đã chọn ngành này học mà không thích cũng phải học"
+			]
+		},
+		{
+			"tag": "thuctap",
+			"patterns": [
+				"bạn đã đi thực tập chưa"
+			],
+			"responses": [
+				"thực tập thì mình vẫn chưa"
+			]
+		},
+		{
+			"tag": "teachers",
+			"patterns": [
+				"Thầy cô trong trường giỏi không",
+				"Giảng viên ở trường có khó không"
+			],
+			"responses": [
+				"Có chuyên môn trong việc dạy học, nghiêm khắc với sinh viên và rất tận tâm nha bạn.",
+				"Đội ngũ công nhân viên, giảng viên của trường luôn luôn thân thiện, vui vẻ và trách nhiệm với công việc và với sinh viên."
+			]
+		},
+		{
+			"tag": "students",
+			"patterns": [
+				"các anh chị sinh viên trường mình có gì khác biệt anh nhỉ",
+				"sinh viên học ở trường thì sao",
+				"điểm nổi bậc của sinh viên trường là gì"
+			],
+			"responses": [
+				"sinh viên rất nề nếp và kỷ luật",
+				"sinh viên của TDTU có 5 đặc điểm nhận dạng đó là kỉ luật, lễ phép, chuyên nghiệp, sáng tạo, phụng sự",
+				"sinh viên trường Tôn Đức Thắng nổi tiếng năng động và tài năng với nhiều giải thưởng từ trong nước đến quốc tế, điểm nổi bật là tính tự giác và ý thức cao như: không xả rác trong khuôn viên trường, xếp hàng khi ra vào thang máy,..."
+			]
+		},
+		{
+			"tag": "nhaxe",
+			"patterns": [
+				"Trường có mấy nhà gửi xe",
+				"Nhà xe trường thế thế nào"
+			],
+			"responses": [
+				"Trường có 4 chỗ gửi xe cho các bạn có thể gửi an toàn, thoải mái",
+				"Tuy có nhà gửi xe rất lớn, sinh viên đi học đông có thể có kẹt xe vì số lượng lớn quá tải"
+			]
+		},
+		{
+			"tag": "cantin",
+			"patterns": [
+				"Trường có căntin không",
+				"Cantin của trường thế nào",
+				"Trường mình có bao nhiêu căn tin để phục vụ sinh hoạt, ăn uống"
+			],
+			"responses": [
+				"Trường tổng cộng có 4 căn tin , căn tin  nhà D , căn tin thư viện , căn tin dãy F , căn tin tại khu ký túc xá mở phục vụ các bạn có thể ăn uống tại đây",
+				"Ở căn tin bạn sẽ được phục vụ nhiều món ăn đa dạng cũng như nhiều loại thức uống, bánh ngọt"
+			]
+		},
+		{
+			"tag": "library",
+			"patterns": [
+				"Trường có thư viện không ",
+				"Thư viện trường mình có xịn không"
+			],
+			"responses": [
+				"Thư viện của trường tự hào là một trong những thư viện hiện đại và đầy đủ tài liệu nhất của TP Hồ Chí Minh",
+				"Thư viện trường mình được xem là một trong những thư viện tốt nhất đông nam á nha"
+			]
+		},
+		{
+			"tag": "library1",
+			"patterns": [
+				"Trường TDTU thư viện mở cửa vào lúc mấy giờ , hoạt động vào thứ mấy trong tuần",
+				"Thời gian thư viện hoạt động",
+				"Mình có thể đến thư viện khi nào"
+			],
+			"responses": [
+				"Thư viện TDTU mở của vào 7 giờ am và kết thúc lúc 5 giờ am, làm việc từ thứ hai đến thứ bảy hàng tuần trừ các ngày lễ",
+				"Thời gian hoạt động của thư viện theo giờ hành chính đó bạn"
+			]
+		},
+		{
+			"tag": "library2",
+			"patterns": [
+				"Mình có thể làm gì ở thư viện",
+				"Thư viện có tiện ích gì"
+			],
+			"responses": [
+				"Ở thư viện bạn có thể học tập, học nhóm, nghiên cứu",
+				"Thư viện cung cấp nhiều dịch vụ tiện ích giúp chúng ta học tập"
+			]
+		},
+		{
+			"tag": "dormitory",
+			"patterns": [
+				"có kí túc xá riêng không",
+				"kí túc xá của trường được đánh giá như thế nào",
+				"kí túc xá ra vào có tiện không",
+				"Trường mình ktx sạch không"
+			],
+			"responses": [
+				"Trường có 3 kí túc xá riêng",
+				"Kí túc xá ok lắm, nhưng kỷ luật cao",
+				"Ký túc xá của trường quá sạch là đằng khác",
+				"Trường mình có 4 tòa ký túc xá, 2 tòa cho sinh viên nam và 2 tòa cho sinh viên nữ, tòa H và I thì được đưa vào sử dụng từ năm 2010 còn ký túc xá mới K và L được đưa vào sử dụng năm 2019"
+			]
+		},
+        {
+			"tag": "dormitory2",
+			"patterns": [
+				"kí túc xá thu bao nhiêu tiền 1 tháng "
+			],
+			"responses": [
+				"Tùy vào tòa bạn ở, theo mình nhớ thì ở tòa I và H thì 250k/tháng còn K và L thì 600k. Nếu ở phòng dịch vụ thì đắt hơn."
+			]
+		},
+		{
+			"tag": "vanphong_tuvan",
+			"patterns": [
+				"Tôi có thể đến đâu để được tư vấn"
+			],
+			"responses": [
+				"Cậu có thể đến phòng E001 để được tư vấn"
+			]
+		},
+        {
+			"tag": "vanphong_tuvan2",
+			"patterns": [
+				"Khi mình có vấn đề cần phải hỏi thì mình sẽ đến phòng nào để hỏi",
+				"Văn phòng cho em hỏi một vài thông tin về trường được chứ"
+			],
+			"responses": [
+				"Cậu có thể đến phòng E001 để được tư vấn",
+				"Văn phòng E001 sẽ giải đáp mọi thắc mắc sinh viên",
+				"À có khi là văn phòng khoa hoặc phòng tư vấn học đường, nhưng để thuận tiện thì bạn hãy gọi điện thoại cho đỡ phải xếp hàng nhé"
+			]
+		},
+		{
+			"tag": "uniform",
+			"patterns": [
+				"Sinh viên cần mặc đồng phục khi nào"
+			],
+			"responses": [
+				"Sinh viên sẽ thục hiện đồng phục quy định vào mỗi thứ 2 và thứ 5 hằng tuần và khi tham gia các sự kiện của trường"
+			]
+		},
+        {
+			"tag": "uniform2",
+			"patterns": [
+				"Áo dài tự thiết kế"
+			],
+			"responses": [
+				" tất cả đều là mẫu do chính trường quy định và đặt may ạ!"
+			]
+		},
+		{
+			"tag": "hocky_quansu",
+			"patterns": [
+				"mỗi học kỳ quân sự thong thường kéo dài bao lâu"
+			],
+			"responses": [
+				"Mỗi học kỳ quan sự chúng ta sẽ tham qia học trong khoảng 1 tuần nha bạn"
+			]
+		},
+        {
+			"tag": "hocky_quansu2",
+			"patterns": [
+				"trường mình học quân sự ở đâu vậy"
+			],
+			"responses": [
+				"trường mình học quân sự tại trường, cơ sở Bảo Lộc hoặc cơ sở Nha Trang đó bạn"
+			]
+		},
+		
+		{
+			"tag": "faculties",
+			"patterns": [
+				"trường có bao nhiêu khoa",
+				"các khoa"
+			],
+			"responses": [
+				"Trường Tôn Đức Thắng có 17 khoa đào tạo",
+				"Trường Tôn Đức Thắng có các khoa như: CNTT, luật, thể thao, điện-điện tử,..."
+			]
+		},
+        {
+			"tag": "undergraduate_programme",
+			"patterns": [
+				"chương trình đào tạo tại TDTU như thế nào",
+				"tổng quan về chương trình đào tạo",
+				"trương trình đào tạo có thời hạn bao lâu"
+			],
+			"responses": [
+				"Đại học Tôn Đức Thắng (TDTU) cung cấp nhiều chương trình giáo dục bậc đại học đào tạo trong các lĩnh vực kinh tế, quản trị, xã hội học, du lịch, ngôn ngữ học, kỹ thuật hóa học, công nghệ sinh học, công nghệ thông tin, luật, mỹ thuật công nghiệp, dược, toán - thống kê, xây dựng, kiến trúc, điện - điện tử, khoa học thể thao,… nhằm đào tạo nguồn nhân lực đáp ứng thị trường lao động và xu hướng hội nhập toàn cầu. Người học có thể chọn học đại học tại TDTU với Chương trình tiêu chuẩn, Chương trình chất lượng cao, Chương trình đại học bằng tiếng Anh hoặc Chương trình du học luân chuyển campus",
+				"Ở trường có 3 chương trình chính: Chương trình tiêu chuẩn, chất lượng cao và luân chuyển Campus",
+				"Các chương trình đà tạo được xác định rõ ràng để sinh viên theo học",
+				"Tùy vào mỗi ngành sẽ có thời gian đào tạo 4-6 năm theo quy định"
+			]
+		},
+		{
+			"tag": "undergraduate_programme1",
+			"patterns": [
+				"chương trình đào tạo tại tường bao gồm những gì ",
+				"sinh viên có bao nhiêu lựa chọn trong chương trình đào tạo"
+			],
+			"responses": [
+				"Trường đào tạo nhiều lĩnh vực kinh tế, khoa học, xã hội,...",
+				"Sinh viên cần lựa chọn chương trình đào tạo phù hợp để theo học"
+			]
+		},
+		{
+            "tag": "regulations_statutes",
+            "patterns": [
+                "Trường có bao nhiêu quy định quy chế",
+                "quy định",
+                "Chính sách quy định tiêu chuẩn"
+            ],
+            "responses": [
+                "Trường chia ra 2 phòng ban để quản lý quy chế quy định: phòng CTHSSV, phòng đại học",
+                "Trường có nhiều quy chế_quy định phù hợp để áp dụng cho sinh viên",
+                "Tùy theo trường hợp vi phạm, khen thưởng mà sử dụng quy chế_quy định phù hợp"
+            ]
+        },
+        {
+            "tag": "regulations_statutes1",
+            "patterns": [
+                "Các quy định quy định có hiệu lực khi nào",
+                "Khi nào thì áp dụng các quy chế_quy định"
+            ],
+            "responses": [
+                "Những quy chế_quy định này sẽ được nhà trường thông báo đến sinh viên những thông tin quan trọng cần nắm rõ"
+            ]
+        },
+		{
+			"tag": "disciplined",
+			"patterns": [
+				"các trường hợp vi phạm bị xử lý kỷ luật"
+			],
+			"responses": [
+				"Sinh viên vi phạm quy chế trong khi dự kiểm tra, làm tiểu luận, bài tập lớn,... của các môn học sẽ bị xủ lý kỷ luật",
+				"Sinh viên nợ học phí, vi phạm kỷ luật, vi phạm nội quy học đường, tham dự thấp hơn 50% số tiết trong lớp sẽ bị xử lý theo quy định"
+			]
+		},
+		{
+			"tag": "disciplined1",
+			"patterns": [
+				"khi nào thì không đủ điều kiện thi kết thúc môn"
+			],
+			"responses": [
+				"Sinh viên không hoàn thành học phí, vắng quá số buổi học quy định trên lớp",
+				"Các trường hợp thi hộ sẽ bị đình chỉ học và buộc thôi học nếu vi phạm lần 2"
+			]
+		},
+		{
+			"tag": "hocluc_hanhkiem",
+			"patterns": [
+				"cách thức xếp hạng và học lực thế nào",
+				"xếp hạng và học lực"
+			],
+			"responses": [
+				"Sau mỗi học kỳ, căn cứ vào khối lượng kiến thức tích lũy sinh viên được xếp hàng năm đào tạo theo năm 1 đến năm 5 ",
+				"Sau mỗi học kỳ, căn cứ vào điểm TB tích lũy, sinh viên được xếp hạng về học lực như sau: hạng bình thường, hạng yếu",
+				"Sinh viên có điểm TB dưới 2,00, TB tích lũy dưới 3,00 sẽ bị cảnh báo kết quả học tập và bị buộc thôi học nếu bị cảnh cáo kết quả học tập 2 lần, vượt quá thời gian được phép học tại trường"
+			]
+		},
+		{
+			"tag": "hocluc_hanhkiem1",
+			"patterns": [
+				"trường hợp cảnh báo về xếp hạng, học lực",
+				"trường hợp cảnh báo kết quả học tập, buộc thôi học"
+			],
+			"responses": [
+				"Sinh viên nghỉ học tạm thời phải có lý do và trình bày lên Hiệu trưởng xét học lực, xếp hạng",
+				"Sinh viên có điểm TB dưới 2,00, TB tích lũy dưới 3,00 sẽ bị cảnh báo kết quả học tập và bị buộc thôi học nếu bị cảnh cáo kết quả học tập 2 lần, vượt quá thời gian được phép học tại trường"
+			]
+		},
+		{
+            "tag": "totnghiep",
+            "patterns": [
+				"Điều kiện tốt nghiệp",
+                "Em không tham gia hoạt động nào do trường phát động thì có được tốt nghiệp không"
+            ],
+            "responses": [
+                "Theo quy định của nhà trường thì trung bình điểm rèn luyện của em phải từ 50 điểm trở lên mới được cấp bằng tốt nghiệp nhé",
+                "Tùy thuộc vào từng ngành mà sẽ quy định khác nhau để tốt nghiệp"
+            ]
+        },
+		{
+            "tag": "totnghiep1",
+            "patterns": [
+                "Cho em hỏi bao nhiêu tín chỉ thì được tốt nghiệp vậy",
+				"Vậy học bao nhiêu tín thì em đủ ra trường"
+            ],
+            "responses": [
+                "Tùy thuộc vào từng ngành mà sẽ quy định số lượng tín chỉ tối thiểu để tốt nghiệp em nhé",
+				"Em có thể thay thế bằng cách học 12 chỉ thay cho luận án nha!",
+				"Em tích lũy đủ 132 tín là tốt nghiệp trường được."
+			]
+        },
+		{
+            "tag": "totnghiep2",
+            "patterns": [
+				"yêu cầu tiếng Anh để tốt nghiệp",
+				"Chứng chỉ ngoại ngữ cần thiết",
+				"Mình cần bằng IELTS/TOEIC bao nhiêu để ra trường"
+            ],
+            "responses": [
+				"Mình cần bằng IELTS 5.0 và TOEIC 550 để có thể tốt nghiệp ra trường "
+            ]
+        },
+		{
+			"tag": "chuyentruong",
+			"patterns": [
+				"các điều kiện để chuyển trường"
+			],
+			"responses": [
+				"Sinh viên được chuyển trường nếu gia đình chuyển nơi cư trú, sinh viên có hoàn cảnh khó khăn, chuyển trường có cùng nhóm ngành đào tạo và được sự đồng ý của Hiệu trưởng của cả hai trường"
+			]
+		},
+		{
+			"tag": "chuyentruong1",
+			"patterns": [
+				"các trường hợp không được phép chuyển trường"
+			],
+			"responses": [
+				"Sinh viên không được chuyển trường trong trường hợp là sinh viên năm 1 hoặc năm cuối, sinh viên đang trong thời gian kỷ luật, sinh viên nằm ngoài vùng tuyển quy định"
+			]
+		},
+		{
+			"tag": "quyche",
+			"patterns": [
+				"Nghe nói trường mình có nhiều quy chế",
+				"Quy chế gồm những gì vậy"
+			],
+			"responses": [
+				"Trường có nhiều quy chế",
+				"Bao gồm nhiều lĩnh vực khác nhau: khen thưởng, rèn luyện, đánh giá, giảng dạy, nhiệm vụ..."
+			]
+		},
+		{
+			"tag": "quydinh",
+			"patterns": [
+				"Nghe nói trường mình có nhiều quy định",
+				"Quy định của trường có khắt khe quá không",
+				"Các quy định áp dụng như thế nào"
+			],
+			"responses": [
+				"Trường có nhiều quy định được đề ra để quản lý hệ thống trường tốt hơn",
+				"Quy định khá là nghiêm đó bạn",
+				"Những quy định tại trường khá nhiều và áp dụng cho mọi sinh viên, giảng viên, công nhân viên chức phù hợp với từng quy định"
+			]
+		},
+		{
+            "tag": "course_registration", 
+            "patterns": [
+				"làm thế nào để đăng ký môn học",
+                "điều kiện đang ký môn học" 
+            ],
+            "responses": [
+                "Để đăng ký môn học sinh viên phải xây dựng KHHT trước học kỳ, và phải được sự phê duyệt của GVCV"
+            ]
+        },
+		{
+            "tag": "course_registration1", 
+            "patterns": [
+                "trách nhiệm của trường khi bắt đầu đăng ký môn học"
+			],
+            "responses": [
+                "Trường có trách nhiệm quản lý sinh viên, thông báo thời gian đăng ký môn học trước mỗi học kỳ"
+            ]
+        },
+		{
+            "tag": "course_registration2", 
+            "patterns": [
+                "trách nhiệm của sinh viên khi bắt đầu đăng ký môn học"
+			],
+            "responses": [
+                "sinh viên cần có trách nhiệm quản lý thời khóa biểu của mình, tìm hiểu các môn học trước khi đăng ký"
+            ]
+        },
+		{
+			"tag": "course_assessment",
+			"patterns": [
+				"việc đánh giá môn học sẽ được thông qua hình thức nào"
+			],
+			"responses": [
+				"Trong mỗi học kỳ, trường sẽ tổ chức một kỳ thi chính gồm hai đợt thi: thi giữa kỳ và thi kết thức môn"
+			]
+		},
+		{
+			"tag": "course_assessment1",
+            "patterns": [
+				"các quy định ra đề thi, chấm thi, số lần thi lại",
+				"đề thi được cho như thế nào"
+			],
+			"responses": [
+				"Đề thi làm ra phải phù hợp nội dung giảng dạy của môn học, có thể là trắc nghiệm hoặc là thi viết",
+				"đề thi sẽ do giảng viên ra và chấm theo quy định của trường"
+			]
+		},
+		{
+			"tag": "trungbinh_ticluy",
+			"patterns": [
+				"tín chỉ tích lũy là gì"
+			],
+			"responses": [
+				"tín chỉ tích lũy là tổng số tín chỉ của các môn học sinh viên đã đăng ký, đã học và điểm tổng kết đạt yêu cầu"
+			]
+		},
+		{
+			"tag": "trungbinh_ticluy1",
+			"patterns": [
+				"điểm trung bình tích lũy là gì"
+			],
+			"responses": [
+				"điểm trung bình tích lũy là điểm TB có hệ số của tất cả các điểm tổng kết các môn học mà sinh viên đã học từ khi nhập học bao gồm các môn được bảo lưu và có điểm"
+			]
+		},
+		{
+			"tag": "trungbinh_ticluy2",
+			"patterns": [
+				"số tín chỉ tích lũy ngành"
+			],
+			"responses": [
+				"số tín chỉ tích lũy ngành là tổng số tín chỉ của các môn học có trong CTDT ngành"
+			]
+		},
+		{
+			"tag": "trungbinh_ticluy3",
+			"patterns": [
+				"điểm trung bình tích lũy ngành"
+			],
+			"responses": [
+				"điểm trung bình tích lũy ngành là điểm TB có hệ số của các môn học có trong CTDT ngành"
+			]
+		},
+		{
+			"tag": "tuition",
+			"patterns": [
+				"học phí bao gồm những gì"
+			],
+			"responses": [
+				"Học phí sẽ bao gồm tất cả các môn mà sinh viên đã liệt kê và đăng ký KHHT, tùy môn học, tùy tín chỉ mà học phí khác nhau"
+			]
+		},
+		{
+			"tag": "tuition1",
+			"patterns": [
+				"nghĩa vụ của trường trước các đợt đóng học phí"
+			],
+			"responses": [
+				"Trường có nghĩa vụ thông báo cho sinh viên những mốc thời gian để hoàn thành học phí"
+			]
+		},
+		{
+			"tag": "tuition2",
+			"patterns": [
+				"học phí hoàn hoàn thành như thế nào",
+				"nhiệm vụ của sinh viên khi hoàn thành học phí",
+				"Sinh viên cần làm gì kgi đóng học phí"
+			],
+			"responses": [
+				"sinh viên có nghĩa vụ hoàn thành học phí đầy đủ",
+				"sinh viên phải hoàn thành học phí đúng hạn cho phép"
+			]
+		},
+		{
+			"tag": "graduate",
+			"patterns": [
+				"điều kiện tốt nghiệp",
+				"xét và công nhận tốt nghiệp"
+			],
+			"responses": [
+				"Sinh viên làm đồ án, khóa luận tốt nghiệp hoặc thi các học phần chuyên môn để xét điều kiện tốt nghiệp",
+				"Sinh viên phải hoàn thành đúng ngành, không bị truy cứu trách nhiệm hình sự, có chứng chỉ quốc phòng, thể chất, điểm TBTLN không dưới 5,00 để được xét điều kiện tốt nghiệp"
+			]
+		},
+		{
+			"tag": "graduate1",
+			"patterns": [
+				"các trường hợp chưa được công nhận tốt nghiệp"
+			],
+			"responses": [
+				"Sinh viên đã hết thời gian học hoặc không đủ điều kiện tốt nghiệp được bảo lưu các môn học có kết quả từ 5,00 trở lên. Các trường hợp khác sẽ do Hiệu trưởng quyết định"
+			]
+		}
+		
+    ]
+}
